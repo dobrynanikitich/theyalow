@@ -685,10 +685,15 @@ body {
     .logoWrapper span {
         font-size: 20px;
         margin-left: 10px;
+        padding-top: 0px;
     }
 
     .navigationList {
         height: 100%;
+    }
+
+    .navigationList svg {
+        margin-right: -20px;
     }
 
     .navigationList div {
@@ -757,8 +762,9 @@ body {
     }
 
     .sliderSection {
-        padding: 8px;
+        padding: 0px;
         background: none;
+        min-height: 476px;
     }
 
     .sliderSection h2 {
@@ -773,11 +779,13 @@ body {
     .videoSliderText {
         padding: 19px;
         margin-right: 10px;
+        margin-left: 8px;
         width: 300px;
     }
 
     .videoSliderText p {
         margin: 0;
+        font-size: 25px;
     }
 
     .sliderPreviewWrapper {
@@ -820,16 +828,40 @@ body {
 
     .inputForm {
         display: flex;
-        height: 29px;
+        width: 273px;
+        padding-left: 15px;
     }
 
     .twitTextfield {
         border: none;
-        border-radius: 10px 0 0 10px
+        border-radius: 10px 0 0 10px;
+        width: 80%;
     }
 
     .sendTwitBtn {
         border: none;
         border-radius: 0 10px 10px 0;
+        width: 20%;
+    }
+
+    .freeSection {
+        padding: 40px 19px;
+    }
+
+    .freeSection h2 {
+        font-weight: normal;
+        margin-bottom: 82px;
+    }
+
+    .freeSectionList {
+        display: none;
+    }
+
+    .footer {
+        justify-content: flex-start;
+    }
+
+    .footerLogoWraper {
+        padding: 2px 79px;
     }
 }
